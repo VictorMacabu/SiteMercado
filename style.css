@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(212, 13, 13);
+}
+#menu{
+    font-size: 18px;
+    overflow: hidden;
+    color: rgb(212, 13, 13);
+    background-color: #36326b;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px; 
+}
+.nome{
+    background-color: rgba(206, 205, 205, 1);
+    border: rgb(212, 13, 13);
+    border-style: solid;
+    border-radius:50px ;
+    padding: 6px;
+    margin:18px ;
+    float: left;
+    font-size: 25px;
+ }
+ .ulistmenu{
+    list-style: none;
+    float: right;
+    padding: 10px;
+ }
+ .listmenu{
+    display: inline;
+ }
+.links{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 15px;
+}
+.links:hover{
+    border-style: solid;
+    border-radius: 25px;
+    background-color:rgb(212, 13, 13);
+    color: #ffffff;
+}
+#dv1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 100px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+.image{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 150px;
+}
+main{
+    background-color: rgba(206, 205, 205, 0.8);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+footer{
+    background-color: #36326b;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    padding: 10px;
+    bottom: 0px;
+    left: -5px;
+    right: -5px;
+}
+#ulLocation{
+    margin-left: 50px;
+}
+#ulend{
+    list-style: none;
+    padding: 5px;
+}
+.liend{
+    padding: 5px;
+    margin-left: 10px;
+}
+#litel{
+    list-style-image: url("imagens/telefone.png");
+}
+#liema{
+    list-style-image: url("imagens/email.png");
+}
+#liend{
+    list-style-image: url("imagens/endereco.png");
+}
+@media screen and (man-width: 400px){
+    .nome{
+        float: none;
+        text-align: center;
+    }
+    .ulistmenu{
+        list-style: none;
+        float: none;
+        padding: 5px;
+        text-align: center;
+    }
+}
